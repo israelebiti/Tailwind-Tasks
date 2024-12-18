@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: -0.047rem;
+    font-family: "Inter", serif;
+}
+
+.component-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+}
+
+.main-component{
+    width: 100%;
+    height: auto;
+    border: 1px solid #d7d7d7;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+
+
+.information-container{
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+    padding: 3rem 2rem 3rem 2rem;
+    border-right: 1px solid #d7d7d7;
+}
+
+
+.revenue-percent-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.revenue-container, .percent-container{
+    width: fit-content;
+    height: auto;
+}
+
+
+.revenue-container p{
+    font-weight: 500;
+    color: #6A7282;
+    font-size: 0.875rem;
+}
+
+
+.percent-container p{
+    color: #314158;
+    font-size: 0.75rem;
+}
+
+.amount-container{
+    width: fit-content;
+    height: auto;
+}
+
+
+.amount-container h1{
+    font-weight: 500;
+    color: #101828;
+    font-size: 1.75rem;
+}
+
+
+.design{
+    color: rgb(0, 125, 33);
+    background-color: rgb(249, 242, 232);
+}
+
+
+.new p{
+    color: #EC003F;
+}
+
+
+.expense{
+    border-right: none;
+}
+
+

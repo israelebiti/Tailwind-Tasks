@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: -0.047rem;
+    font-family: "Inter", serif;
+}
+
+
+.outer-container{
+    width: 100%;
+    height: auto;
+    background-color: #F3F4F6;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1.25rem;
+}
+
+
+.days-container{
+    width: fit-content;
+    height: auto;
+}
+
+
+.days-container p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #101828;
+}
+
+
+.cards-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 1.255rem;
+}
+
+
+.card-info-container{
+    width: 33%;
+    height: auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.75rem;
+}
+
+
+.card-title-container{
+    width: fit-content;
+    height: auto;
+}
+
+
+.card-title-container p{
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: #6A7282;
+}
+
+
+.card-value-container{
+    width: fit-content;
+    height: auto;
+}
+
+
+.card-value-container h1{
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #101828;
+}

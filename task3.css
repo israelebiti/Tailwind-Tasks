@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: -0.047rem;
+    font-family: "Inter", serif;
+}
+
+
+.outer-container{
+    width: 100%;
+    height: auto;
+    background-color: #F3F4F6;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1.25rem;
+}
+
+
+.days-container{
+    width: fit-content;
+    height: auto;
+}
+
+.days-container p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #101828;
+}
+
+
+.cards-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.card-info-container{
+    width: 33%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    border-right: 1px solid #E5E7EB;
+    padding: 2rem;
+    row-gap: 1rem;
+}
+
+
+.card-title-container{
+    width: fit-content;
+    height: auto;
+}
+
+
+.cards-container p{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #101828;
+}
+
+
+.card-details-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.left-card-details-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: baseline;
+    column-gap: 0.5rem;
+}
+
+
+.main-figure-contaiiner{
+    width: fit-content;
+    height: auto;
+}
+
+
+.main-figure-contaiiner h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4F39F6;
+}
+
+
+.other-figure-container{
+    width: fit-content;
+    height: auto;
+}
+
+
+.other-figure-container p{
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #6A7282;
+}
+
+
+.right-card-details-container{
+    width: fit-content;
+    height: auto;
+    background-color: #DCFCE7;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+    column-gap: 0.5rem;
+    border-radius: 10000rem;
+}
+
+
+.icon-container{
+    width: fit-content;
+    height: auto;
+}
+
+
+.icon-container i{
+    color: #00C950;
+}
+
+
+.down i{
+    color: #FA2C37;
+}
+
+
+.red{
+    background-color: #FFE2E1;
+}
+
+.percent-container{
+    width: fit-content;
+    height: auto;
+}
+
+
+.percent-container p{
+    color: #016630;
+    font-size: 0.875;
+    font-weight: 500;
+}
+
+
+.new-percent p{
+    color: #9E0812;
+}
+
+
+.last-card{
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-right: none;
+}
+
+
+.first-card{
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
